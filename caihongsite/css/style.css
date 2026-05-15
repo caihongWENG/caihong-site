@@ -189,6 +189,107 @@ br {
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
 }
 
+.keywords {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+.keywords span {
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 4px 3px;
+    font-size: 14px;
+    color: rgba(14, 61, 115, 1);
+    background: rgba(14, 61, 115, 0.07);
+    border-radius: 14px;
+    font-weight: 500;
+}
+
+.news-section {
+    max-width: 700px;
+    margin: 60px auto 40px auto;
+    padding: 0 20px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.news-section h2 {
+    text-align: left;
+    border-bottom: 1px solid rgba(14, 61, 115, 0.2);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+.news-item {
+    display: flex;
+    align-items: baseline;
+    margin: 14px 0;
+    gap: 14px;
+}
+.news-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    min-width: 115px;
+    text-align: center;
+    flex-shrink: 0;
+}
+.news-badge.published {
+    background: rgba(14, 61, 115, 0.1);
+    color: rgba(14, 61, 115, 1);
+}
+.news-badge.upcoming {
+    background: rgba(196, 130, 14, 0.12);
+    color: rgb(176, 110, 0);
+}
+.news-content {
+    flex: 1;
+    line-height: 1.5;
+}
+
+.academic-links {
+    text-align: center;
+    margin-top: 30px;
+}
+.academic-links a {
+    display: inline-block;
+    margin: 0 14px;
+    color: rgb(110, 110, 110);
+    font-size: 32px;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+.academic-links a:hover {
+    color: rgba(14, 61, 115, 1);
+    transform: translateY(-2px);
+}
+.academic-links a:visited {
+    color: rgb(110, 110, 110);
+}
+.academic-links a:visited:hover {
+    color: rgba(14, 61, 115, 1);
+}
+
+@media (max-width: 480px) {
+    .academic-links a {
+        font-size: 26px;
+        margin: 0 10px;
+    }
+    .keywords span {
+        font-size: 12px;
+        padding: 2px 8px;
+    }
+    .news-section {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+}
+
 
 .get {
     font-size: 28px;
