@@ -181,14 +181,18 @@ br {
 
 
 .PHD {
-    max-width: 700px;
-    margin: 0 auto 130px auto;
-    padding: 0 20px;
+    margin-bottom: 200px;
     font-size: 19px;
     color: rgb(39, 43, 46);
     line-height: 30px;
     font-weight: lighter;
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+}
+
+.home-bio {
+    max-width: 700px;
+    margin: 0 auto 130px auto;
+    padding: 0 20px;
 }
 
 .keywords {
