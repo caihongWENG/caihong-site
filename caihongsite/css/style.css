@@ -44,6 +44,21 @@ img {
     border-radius: 50%;
 }
 
+.photo-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+    flex-wrap: wrap;
+}
+.photo-row img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
 div {
     text-align: center;
     font-size: 20px;
@@ -134,6 +149,14 @@ span.d {
     display: inline-block;
     padding: 10px;
 }
+span.e {
+    display: inline-block;
+    padding: 10px;
+}
+span.f {
+    display: inline-block;
+    padding: 10px;
+}
 
 
 .boldt {
@@ -192,6 +215,12 @@ br {
         height: auto;
     }
 
+    .photo-row img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
     .link {
         color: cadetblue;
     }
@@ -246,7 +275,7 @@ br {
         font-weight: bold;
     }
 
-    span.a, span.b, span.c, span.d {
+    span.a, span.b, span.c, span.d, span.e, span.f {
         padding: 0.3125em; /* Reduce padding for mobile */
     }
 
