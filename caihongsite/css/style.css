@@ -11,7 +11,7 @@ a {text-decoration:none;}
 
 
 .link {
-    color: blue;
+    color: rgb(45, 90, 61);
 }
 
 a:visited {
@@ -93,17 +93,17 @@ h1.h1public {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 25px;
-    color: rgba(14, 61, 115, 1)
+    color: rgb(45, 90, 61)
 }
 
 
 h2.cv {
-    color: rgba(14, 61, 115, 1);
+    color: rgb(45, 90, 61);
     margin-top: 40px;
 }
 
 h2 {
-    color: rgba(14, 61, 115, 1);
+    color: rgb(45, 90, 61);
     margin-top: 40px;
     text-align: center;
 }
@@ -181,7 +181,9 @@ br {
 
 
 .PHD {
-    margin-bottom: 200px;
+    max-width: 700px;
+    margin: 0 auto 130px auto;
+    padding: 0 20px;
     font-size: 19px;
     color: rgb(39, 43, 46);
     line-height: 30px;
@@ -200,52 +202,60 @@ br {
     padding: 3px 10px;
     margin: 4px 3px;
     font-size: 14px;
-    color: rgba(14, 61, 115, 1);
-    background: rgba(14, 61, 115, 0.07);
+    color: rgb(45, 90, 61);
+    background: rgba(45, 90, 61, 0.07);
     border-radius: 14px;
     font-weight: 500;
 }
 
 .news-section {
-    max-width: 700px;
-    margin: 60px auto 40px auto;
-    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    padding: 24px 30px;
     text-align: left;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.7;
+    background: rgba(45, 90, 61, 0.04);
+    border-left: 3px solid rgb(45, 90, 61);
+    border-radius: 0 6px 6px 0;
 }
 .news-section h2 {
     text-align: left;
-    border-bottom: 1px solid rgba(14, 61, 115, 0.2);
-    padding-bottom: 8px;
-    margin-bottom: 16px;
-    font-size: 22px;
+    border-bottom: 1px solid rgba(45, 90, 61, 0.2);
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    font-size: 28px;
 }
 .news-item {
     display: flex;
     align-items: baseline;
-    margin: 14px 0;
-    gap: 14px;
+    margin: 18px 0;
+    gap: 16px;
 }
 .news-badge {
     display: inline-block;
-    padding: 3px 10px;
-    font-size: 11px;
+    padding: 5px 12px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.6px;
     text-transform: uppercase;
-    border-radius: 3px;
-    min-width: 115px;
+    border-radius: 4px;
+    min-width: 130px;
     text-align: center;
     flex-shrink: 0;
 }
 .news-badge.published {
-    background: rgba(14, 61, 115, 0.1);
-    color: rgba(14, 61, 115, 1);
+    background: rgba(45, 90, 61, 0.1);
+    color: rgb(45, 90, 61);
 }
 .news-badge.upcoming {
     background: rgba(196, 130, 14, 0.12);
     color: rgb(176, 110, 0);
+    animation: pulse-upcoming 2.4s ease-in-out infinite;
+}
+@keyframes pulse-upcoming {
+    0%, 100% { background: rgba(196, 130, 14, 0.12); }
+    50% { background: rgba(196, 130, 14, 0.28); }
 }
 .news-content {
     flex: 1;
@@ -265,14 +275,14 @@ br {
     transition: color 0.2s ease, transform 0.2s ease;
 }
 .academic-links a:hover {
-    color: rgba(14, 61, 115, 1);
+    color: rgb(45, 90, 61);
     transform: translateY(-2px);
 }
 .academic-links a:visited {
     color: rgb(110, 110, 110);
 }
 .academic-links a:visited:hover {
-    color: rgba(14, 61, 115, 1);
+    color: rgb(45, 90, 61);
 }
 
 @media (max-width: 480px) {
@@ -327,7 +337,7 @@ br {
     }
 
     .link {
-        color: cadetblue;
+        color: rgb(70, 130, 90);
     }
 
     /* Adjust font sizes and margins for better readability on small screens */
