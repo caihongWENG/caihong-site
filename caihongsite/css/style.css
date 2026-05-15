@@ -13,6 +13,9 @@ a {text-decoration:none;}
 .link {
     color: rgb(45, 90, 61);
 }
+.link:visited {
+    color: rgb(45, 90, 61);
+}
 
 a:visited {
     
@@ -38,8 +41,8 @@ a:visited {
 
 
 img {
-    width: 170px;
-    height: 170px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -85,7 +88,8 @@ div.publicenter {
 
 
 h1 {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -120,10 +124,10 @@ h4 {
 
 .header {
     text-align: right;
-    margin-top: 80px;
+    margin-top: 35px;
     margin-right: 120px;
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-size: 20px;
 }
 
@@ -191,7 +195,7 @@ br {
 
 .home-bio {
     max-width: 1000px;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 30px auto;
     padding: 0 20px;
 }
 
@@ -268,7 +272,7 @@ br {
 
 .academic-links {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .academic-links a {
     display: inline-block;
@@ -316,8 +320,10 @@ br {
 
 
 .p1 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .adress {
