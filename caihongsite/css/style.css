@@ -190,8 +190,8 @@ br {
 }
 
 .home-bio {
-    max-width: 700px;
-    margin: 0 auto 130px auto;
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
     padding: 0 20px;
 }
 
@@ -213,7 +213,7 @@ br {
 }
 
 .news-section {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto 60px auto;
     padding: 24px 30px;
     text-align: left;
