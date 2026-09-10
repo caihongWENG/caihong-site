@@ -256,6 +256,10 @@ br {
     background: rgba(45, 90, 61, 0.1);
     color: rgb(45, 90, 61);
 }
+.news-badge.position {
+    background: rgba(93, 74, 110, 0.12);
+    color: rgb(93, 74, 110);
+}
 .news-badge.upcoming {
     background: rgba(196, 130, 14, 0.12);
     color: rgb(176, 110, 0);
